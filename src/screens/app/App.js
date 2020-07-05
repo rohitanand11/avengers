@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "../../components/header/Header";
 import Corousal from "../../components/corousal/Corousal";
+import Dialogues from "../../components/dialogues/Dialogues";
 
 import DataArr from "../../data/dataArray/dataArray";
 import Classes from "./App.module.css";
@@ -22,20 +23,19 @@ const App = () => {
     }
   };
 
-  const handleRightArrowClick = async() => {
+  const handleRightArrowClick = () => {
     
     console.log("clicked" + currIndex);
     const counter = currIndex;
     const counterLimit = dataArray.length - 1;
     if (counter === counterLimit) {
-      await setCurrIndex(0);
+      setCurrIndex(0);
     } else {
-      await setCurrIndex(counter + 1);
+      setCurrIndex(counter + 1);
     }
-
   }
 
-  let update = () => {
+  const update = () => {
     console.log("inside update" + currIndex);
     if(currIndex===dataArray.length-1) {
       setCurrIndex(0);
@@ -44,26 +44,27 @@ const App = () => {
     }
   }
 
-  // const autoUpdate=() => {
-  //   setInterval(update, 4000);
-  // }
-
-  // useEffect(autoUpdate);
-
   useEffect(() => {
-    const interval = setInterval(update, 4000);
+    const interval = setInterval(update, 5000);
     return () => clearInterval(interval);
   });
 
   return (
     <div className={Classes.app}>
-      <Header />
+
+      <Header title="AVENGERS" />
+
       <Corousal
         data={dataArray}
         currentIndex={currIndex}
         leftClick={handleLeftArrowClick}
         rightClick={handleRightArrowClick}
       />
+
+      <Dialogues>
+        {dataArray[currIndex].dialouge}
+      </Dialogues>
+
     </div>
   );
 };

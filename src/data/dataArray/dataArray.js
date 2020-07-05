@@ -41,7 +41,7 @@ const Data = [
         index:4,
         name : "doctor strange",
         path:DoctorStrange,
-        dialouge:"We are in the endgae now",
+        dialouge:"We are in the endgame now",
     },
     {
         id:"bucky_barnes_1",

@@ -1,11 +1,11 @@
 import React from 'react';
 import Classes from './Header.module.css';
 
-const Header = () => {
+const Header = (props) => {
     return(
         <div className={Classes.Header}>
             <div className={Classes.AppName}>
-                Avengers
+                {props.title}
             </div>
         </div>
     )
