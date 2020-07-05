@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "967a1ee12218f4074d7c9b959f711ddd",
+    "revision": "28f62d9da956868d1a7d1ce7aa807fbf",
     "url": "/avengers_corousal/index.html"
   },
   {
