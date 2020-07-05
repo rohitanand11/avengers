@@ -6,7 +6,6 @@ import Classes from "./ImagesWrapper.module.css";
 const ImagesWrapper = (props) => {
   const { data } = props;
   const { currentIndex } = props;
-  console.log(currentIndex);
 
   const sideBySideImages = () => {
     const newDataArray = data.map((elem) => {

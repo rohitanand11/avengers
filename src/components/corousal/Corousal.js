@@ -4,7 +4,7 @@ import ImageContainer from "./ImageContainer/ImageContainer";
 import Classes from "./Corousal.module.css";
 
 const Corousal = (props) => {
-  console.log(props);
+  
   return (
     <div className={Classes.Corousal}>
       <ImageContainer
