@@ -1,0 +1,10 @@
+.Header{
+    padding-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.AppName{
+    font-size: x-large;
+}

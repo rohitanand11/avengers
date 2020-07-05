@@ -1,0 +1,27 @@
+.leftArrow{
+    z-index: 100;
+    cursor: pointer;
+    position: absolute;
+    top: 46%;
+    width: 0%;
+    height: 0%;
+    border-style: solid;
+    border-width: 30px 40px 30px 0;
+    border-color: transparent #fff transparent transparent;
+    left:0;
+    margin-left: 10px;
+}
+
+.rightArrow{
+    z-index: 100;
+    cursor: pointer;
+    position: absolute;
+    top: 46%;
+    width: 0%;
+    height: 0%;
+    border-style: solid;
+    border-width: 30px 0px 30px 40px;
+    border-color: transparent transparent transparent #fff;
+    right:0;
+    margin-right: 10px;
+}
