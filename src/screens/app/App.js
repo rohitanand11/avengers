@@ -1,20 +1,52 @@
-import React ,{useState} from 'react';
-import Header from '../../components/header/Header';
-import Corousal from '../../components/corousal/Corousal';
+import React, { useState } from "react";
+import Header from "../../components/header/Header";
+import Corousal from "../../components/corousal/Corousal";
 
-import DataArr from '../../data/dataArray/dataArray'
-import Classes from './App.module.css';
+import DataArr from "../../data/dataArray/dataArray";
+import Classes from "./App.module.css";
+
+const InitialIndex = 0;
 
 const App = () => {
+  const [dataArray] = useState([...DataArr]);
+  const [currIndex, setCurrIndex] = useState(InitialIndex);
 
-  const [dataArray,] = useState([...DataArr]); 
+  const handleLeftArrowClick = () => {
+    console.log("clicked" + currIndex);
+    const counter = currIndex;
+    const counterLimit = dataArray.length - 1;
+    if (counter === 0) {
+      setCurrIndex(counterLimit);
+    } else {
+      setCurrIndex(counter - 1);
+    }
+  };
+
+  const handleRightArrowClick = () => {
+    
+    console.log("clicked" + currIndex);
+    const counter = currIndex;
+    const counterLimit = dataArray.length - 1;
+    if (counter === counterLimit) {
+      setCurrIndex(0);
+    } else {
+      setCurrIndex(counter + 1);
+    }
+
+  }
+
 
   return (
     <div className={Classes.app}>
-      <Header/>
-      <Corousal data = {dataArray}/>
+      <Header />
+      <Corousal
+        data={dataArray}
+        currentIndex={currIndex}
+        leftClick={handleLeftArrowClick}
+        rightClick={handleRightArrowClick}
+      />
     </div>
   );
-}
+};
 
 export default App;

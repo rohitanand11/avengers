@@ -1,22 +1,29 @@
-import React from 'react';
-import Image from '../Image/Image';
+import React from "react";
+import Image from "../Image/Image";
 
-import Classes from './ImagesWrapper.module.css';
+import Classes from "./ImagesWrapper.module.css";
 
-const ImagesWrapper = ({data}) => {
+const ImagesWrapper = (props) => {
+  const { data } = props;
+  const { currentIndex } = props;
+  console.log(currentIndex);
 
-    console.log(data);
-    const sideBySideImages = () => {
-        const newDataArray = data.map((elem)=>{
-            return <Image src={elem.path} alt={elem.name} key={elem.id}/>
-        })
-        return newDataArray;
-    }
-    return(
-        <div className={Classes.ImagesWrapper}>
-            {sideBySideImages()}
-        </div>
-    )
-}
+  const sideBySideImages = () => {
+    const newDataArray = data.map((elem) => {
+      return <Image src={elem.path} alt={elem.name} key={elem.id} />;
+    });
+    return newDataArray;
+  };
+  return (
+    <div
+      className={Classes.ImagesWrapper}
+      style={{
+        transform: `translateX(-${currentIndex * 100}%)`,
+      }}
+    >
+      {sideBySideImages()}
+    </div>
+  );
+};
 
 export default ImagesWrapper;

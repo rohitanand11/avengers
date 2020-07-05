@@ -1,15 +1,20 @@
-import React from 'react';
-import ImageContainer from './ImageContainer/ImageContainer';
+import React from "react";
+import ImageContainer from "./ImageContainer/ImageContainer";
 
-import Classes from './Corousal.module.css';
+import Classes from "./Corousal.module.css";
 
-const Corousal = ({data}) => {
-    // console.log(data);
-     return (
-        <div className={Classes.Corousal}>
-            <ImageContainer data = {data}/>
-        </div>
-    )
-}
+const Corousal = (props) => {
+  console.log(props);
+  return (
+    <div className={Classes.Corousal}>
+      <ImageContainer
+        data={props.data}
+        currentIndex={props.currentIndex}
+        leftClick={props.leftClick}
+        rightClick={props.rightClick}
+      />
+    </div>
+  );
+};
 
 export default Corousal;
