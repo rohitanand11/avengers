@@ -35,9 +35,14 @@ const App = () => {
 
   }
 
+  const autoUpdate=() => {
+    setInterval(handleRightArrowClick, 2000);
+  }
+
 
   return (
     <div className={Classes.app}>
+      {autoUpdate()}
       <Header />
       <Corousal
         data={dataArray}
