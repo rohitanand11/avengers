@@ -9,7 +9,7 @@ import Classes from "./App.module.css";
 const InitialIndex = 0;
 
 const App = () => {
-  const [dataArray] = useState([...DataArr]);
+  const [dataArray,] = useState([...DataArr]);
   const [currIndex, setCurrIndex] = useState(InitialIndex);
 
   const handleLeftArrowClick = () => {
