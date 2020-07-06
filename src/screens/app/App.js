@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "../../components/header/Header";
 import Corousal from "../../components/corousal/Corousal";
+import Counter from "../../components/counter/Counter";
 import Dialogues from "../../components/dialogues/Dialogues";
 
 import DataArr from "../../data/dataArray/dataArray";
@@ -25,7 +26,6 @@ const App = () => {
 
   const handleRightArrowClick = () => {
     
-    console.log("clicked" + currIndex);
     const counter = currIndex;
     const counterLimit = dataArray.length - 1;
     if (counter === counterLimit) {
@@ -36,7 +36,7 @@ const App = () => {
   }
 
   const update = () => {
-    console.log("inside update" + currIndex);
+    
     if(currIndex===dataArray.length-1) {
       setCurrIndex(0);
     } else {
@@ -61,6 +61,8 @@ const App = () => {
         rightClick={handleRightArrowClick}
       />
 
+      <Counter currentCounter={currIndex+1} totalLength={dataArray.length}/>
+      
       <Dialogues>
         {dataArray[currIndex].dialouge}
       </Dialogues>
