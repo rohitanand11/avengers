@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/avengers_corousal/static/css/main.989e8b46.chunk.css",
-    "main.js": "/avengers_corousal/static/js/main.8d39fde5.chunk.js",
-    "main.js.map": "/avengers_corousal/static/js/main.8d39fde5.chunk.js.map",
+    "main.css": "/avengers_corousal/static/css/main.a1056e32.chunk.css",
+    "main.js": "/avengers_corousal/static/js/main.377028dc.chunk.js",
+    "main.js.map": "/avengers_corousal/static/js/main.377028dc.chunk.js.map",
     "runtime-main.js": "/avengers_corousal/static/js/runtime-main.95932a04.js",
     "runtime-main.js.map": "/avengers_corousal/static/js/runtime-main.95932a04.js.map",
     "static/js/2.97188659.chunk.js": "/avengers_corousal/static/js/2.97188659.chunk.js",
     "static/js/2.97188659.chunk.js.map": "/avengers_corousal/static/js/2.97188659.chunk.js.map",
     "index.html": "/avengers_corousal/index.html",
-    "precache-manifest.7205bc09682520f53f1e942f7626ee59.js": "/avengers_corousal/precache-manifest.7205bc09682520f53f1e942f7626ee59.js",
+    "precache-manifest.9169e91a4710c687fcb74ef34b255dc8.js": "/avengers_corousal/precache-manifest.9169e91a4710c687fcb74ef34b255dc8.js",
     "service-worker.js": "/avengers_corousal/service-worker.js",
-    "static/css/main.989e8b46.chunk.css.map": "/avengers_corousal/static/css/main.989e8b46.chunk.css.map",
+    "static/css/main.a1056e32.chunk.css.map": "/avengers_corousal/static/css/main.a1056e32.chunk.css.map",
     "static/js/2.97188659.chunk.js.LICENSE.txt": "/avengers_corousal/static/js/2.97188659.chunk.js.LICENSE.txt",
     "static/media/ant_man.jpg": "/avengers_corousal/static/media/ant_man.a241ac8a.jpg",
     "static/media/black_panther.jpg": "/avengers_corousal/static/media/black_panther.657f9991.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.95932a04.js",
     "static/js/2.97188659.chunk.js",
-    "static/css/main.989e8b46.chunk.css",
-    "static/js/main.8d39fde5.chunk.js"
+    "static/css/main.a1056e32.chunk.css",
+    "static/js/main.377028dc.chunk.js"
   ]
 }
