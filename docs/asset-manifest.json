@@ -1,30 +1,32 @@
 {
   "files": {
-    "main.css": "/avengers_corousal/static/css/main.59d11d7d.chunk.css",
-    "main.js": "/avengers_corousal/static/js/main.87327bc2.chunk.js",
-    "main.js.map": "/avengers_corousal/static/js/main.87327bc2.chunk.js.map",
+    "main.css": "/avengers_corousal/static/css/main.989e8b46.chunk.css",
+    "main.js": "/avengers_corousal/static/js/main.8d39fde5.chunk.js",
+    "main.js.map": "/avengers_corousal/static/js/main.8d39fde5.chunk.js.map",
     "runtime-main.js": "/avengers_corousal/static/js/runtime-main.95932a04.js",
     "runtime-main.js.map": "/avengers_corousal/static/js/runtime-main.95932a04.js.map",
-    "static/js/2.6f87db7d.chunk.js": "/avengers_corousal/static/js/2.6f87db7d.chunk.js",
-    "static/js/2.6f87db7d.chunk.js.map": "/avengers_corousal/static/js/2.6f87db7d.chunk.js.map",
+    "static/js/2.97188659.chunk.js": "/avengers_corousal/static/js/2.97188659.chunk.js",
+    "static/js/2.97188659.chunk.js.map": "/avengers_corousal/static/js/2.97188659.chunk.js.map",
     "index.html": "/avengers_corousal/index.html",
-    "precache-manifest.cdabd1f28b8afba956110629a26f2172.js": "/avengers_corousal/precache-manifest.cdabd1f28b8afba956110629a26f2172.js",
+    "precache-manifest.7205bc09682520f53f1e942f7626ee59.js": "/avengers_corousal/precache-manifest.7205bc09682520f53f1e942f7626ee59.js",
     "service-worker.js": "/avengers_corousal/service-worker.js",
-    "static/css/main.59d11d7d.chunk.css.map": "/avengers_corousal/static/css/main.59d11d7d.chunk.css.map",
-    "static/js/2.6f87db7d.chunk.js.LICENSE.txt": "/avengers_corousal/static/js/2.6f87db7d.chunk.js.LICENSE.txt",
-    "static/media/ant_man.jpg": "/avengers_corousal/static/media/ant_man.7e21f611.jpg",
-    "static/media/black_panther.jpg": "/avengers_corousal/static/media/black_panther.ed93afb7.jpg",
-    "static/media/bucky_barnes.jpg": "/avengers_corousal/static/media/bucky_barnes.b86ab49d.jpg",
-    "static/media/captain.jpg": "/avengers_corousal/static/media/captain.dd975f14.jpg",
-    "static/media/captain_marvel.jpg": "/avengers_corousal/static/media/captain_marvel.64413349.jpg",
-    "static/media/doctor_strange.jpg": "/avengers_corousal/static/media/doctor_strange.7f05ea8d.jpg",
-    "static/media/hulk.jpg": "/avengers_corousal/static/media/hulk.1c4a61a1.jpg",
-    "static/media/spider_man.jpg": "/avengers_corousal/static/media/spider_man.615d84a4.jpg"
+    "static/css/main.989e8b46.chunk.css.map": "/avengers_corousal/static/css/main.989e8b46.chunk.css.map",
+    "static/js/2.97188659.chunk.js.LICENSE.txt": "/avengers_corousal/static/js/2.97188659.chunk.js.LICENSE.txt",
+    "static/media/ant_man.jpg": "/avengers_corousal/static/media/ant_man.a241ac8a.jpg",
+    "static/media/black_panther.jpg": "/avengers_corousal/static/media/black_panther.657f9991.jpg",
+    "static/media/black_widow.jpg": "/avengers_corousal/static/media/black_widow.4b9ed018.jpg",
+    "static/media/captain.jpg": "/avengers_corousal/static/media/captain.de13c0b2.jpg",
+    "static/media/captain_marvel.jpg": "/avengers_corousal/static/media/captain_marvel.2e80fe82.jpg",
+    "static/media/doctor_strange.jpg": "/avengers_corousal/static/media/doctor_strange.d80f5cc5.jpg",
+    "static/media/hulk.jpg": "/avengers_corousal/static/media/hulk.e718ca28.jpg",
+    "static/media/iron_man.jpg": "/avengers_corousal/static/media/iron_man.2965378a.jpg",
+    "static/media/spider_man.jpg": "/avengers_corousal/static/media/spider_man.fd5ecf53.jpg",
+    "static/media/thor.jpg": "/avengers_corousal/static/media/thor.e80719de.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.95932a04.js",
-    "static/js/2.6f87db7d.chunk.js",
-    "static/css/main.59d11d7d.chunk.css",
-    "static/js/main.87327bc2.chunk.js"
+    "static/js/2.97188659.chunk.js",
+    "static/css/main.989e8b46.chunk.css",
+    "static/js/main.8d39fde5.chunk.js"
   ]
 }
