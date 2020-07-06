@@ -3,9 +3,11 @@ import BlackPanther from '../../assets/images/black_panther.jpg';
 import AntMan from '../../assets/images/ant_man.jpg';
 import Captain from '../../assets/images/captain.jpg';
 import DoctorStrange from '../../assets/images/doctor_strange.jpg';
-import BuckyBarnes from '../../assets/images/bucky_barnes.jpg';
+import BlackWidow from '../../assets/images/black_widow.jpg';
 import CaptainMarvel from '../../assets/images/captain_marvel.jpg';
 import Hulk from '../../assets/images/hulk.jpg';
+import Thor from '../../assets/images/thor.jpg';
+import IronMan from '../../assets/images/iron_man.jpg';
 
 const Data = [
     {
@@ -44,11 +46,11 @@ const Data = [
         dialouge:"We are in the endgame now",
     },
     {
-        id:"bucky_barnes_1",
+        id:"black_widow_1",
         index:5,
-        name : "bucky barnes",
-        path:BuckyBarnes,
-        dialouge:"meet you the other side",
+        name : "black widow",
+        path:BlackWidow,
+        dialouge:"Whose side am i on",
     },
     {
         id:"captain_marvel_1",
@@ -64,6 +66,21 @@ const Data = [
         path:Hulk,
         dialouge:"I hate stairs",
     },
+    {
+        id:"thor_1",
+        index:7,
+        name : "Thor",
+        path:Thor,
+        dialouge:"Give me Thanos",
+    },
+    {
+        id:"iron_man_1",
+        index:7,
+        name : "Iron Man",
+        path:IronMan,
+        dialouge:"And I am I.R.O.N  M.A.N",
+    },
+
 ]
 
 export default Data;
