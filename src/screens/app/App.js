@@ -3,6 +3,7 @@ import Header from "../../components/header/Header";
 import Corousal from "../../components/corousal/Corousal";
 import Counter from "../../components/counter/Counter";
 import Dialogues from "../../components/dialogues/Dialogues";
+import Movies from "../../components/movies/Movies";
 
 // import DataArr from "../../data/dataArray/dataArray";
 import * as utility  from "../../data/utility/utility";
@@ -11,6 +12,7 @@ import Classes from "./App.module.css";
 const InitialIndex = 0;
 
 const App = () => {
+
   const dataArray = [...utility.corousalImage()];
   const [currIndex, setCurrIndex] = useState(InitialIndex);
 
@@ -67,6 +69,8 @@ const App = () => {
       <Dialogues>
         {dataArray[currIndex].dialouge}
       </Dialogues>
+
+      <Movies movies_list={utility.movie_list()}/>
 
     </div>
   );
