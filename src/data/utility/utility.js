@@ -6,4 +6,9 @@ const corousalImage = () => {
     return image_corousal;
 }
 
+const movie_list  = () => {
+    const movies = {...Data.movie_list};
+    return movies;
+}
+
 export {corousalImage};
