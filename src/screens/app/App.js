@@ -4,13 +4,14 @@ import Corousal from "../../components/corousal/Corousal";
 import Counter from "../../components/counter/Counter";
 import Dialogues from "../../components/dialogues/Dialogues";
 
-import DataArr from "../../data/dataArray/dataArray";
+// import DataArr from "../../data/dataArray/dataArray";
+import * as utility  from "../../data/utility/utility";
 import Classes from "./App.module.css";
 
 const InitialIndex = 0;
 
 const App = () => {
-  const [dataArray,] = useState([...DataArr]);
+  const dataArray = [...utility.corousalImage()];
   const [currIndex, setCurrIndex] = useState(InitialIndex);
 
   const handleLeftArrowClick = () => {

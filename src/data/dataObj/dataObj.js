@@ -9,7 +9,9 @@ import Hulk from '../../assets/images/hulk.jpg';
 import Thor from '../../assets/images/thor.jpg';
 import IronMan from '../../assets/images/iron_man.jpg';
 
-const Data = [
+const Data = {
+    
+    corousal:[
     {
         id:"spider_man_1",
         index:0,
@@ -81,6 +83,9 @@ const Data = [
         dialouge:"If you are nothing without the suit, then you shouldn't have it",
     },
 
-]
+],
+
+
+};
 
 export default Data;
