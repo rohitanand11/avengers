@@ -9,7 +9,7 @@ const ImagesWrapper = (props) => {
 
   const sideBySideImages = () => {
     const newDataArray = data.map((elem) => {
-      return <Image src={elem.path} alt={elem.name} key={elem.id} />;
+      return <Image src={elem.path} alt={elem.name} key={elem.id}/>;
     });
     return newDataArray;
   };
@@ -17,7 +17,7 @@ const ImagesWrapper = (props) => {
     <div
       className={Classes.ImagesWrapper}
       style={{
-        transform: `translateX(-${currentIndex * 100}%)`,
+        transform: `translateX(-${currentIndex * 100}vw)`,
       }}
     >
       {sideBySideImages()}
