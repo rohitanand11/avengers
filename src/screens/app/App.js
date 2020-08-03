@@ -18,7 +18,7 @@ const App = () => {
     const counter = currIndex;
     const counterLimit = dataArray.length - 1;
     if (counter === 0) {
-      setCurrIndex(()=>counterLimit);
+      setCurrIndex( ()=>counterLimit);
     } else {
       setCurrIndex(()=>counter - 1);
     }
