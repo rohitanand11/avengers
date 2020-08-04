@@ -8,6 +8,7 @@ const Movies = ({ movies_list }) => {
         return (
             <React.Fragment>
                 <tr>
+                    <th>S.No</th>
                     {movies_list.coloumn_names.map((elem) => {
                        return <th key={elem}>{elem}</th>
                     })}
@@ -16,6 +17,7 @@ const Movies = ({ movies_list }) => {
                 {movies_list.movies.map((elem,index) => {
                     return (
                         <tr key = {`${index}`}>
+                            <td>{index+1}</td>
                             <td>{elem.movie_name}</td>
                             <td>{elem.year}</td>
                             <td>{elem.main_character}</td>
@@ -30,6 +32,7 @@ const Movies = ({ movies_list }) => {
 
     return (
         <div className={Classes.Movies}>
+            <div className={Classes.title}>{movies_list.component_title}</div>
             <table>
                 {renderTable()}
             </table>
