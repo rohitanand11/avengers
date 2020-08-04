@@ -2,4 +2,5 @@
   min-height: 100vh;
   background: linear-gradient(to bottom right,rgba(0, 0, 0, 0.836),rgb(22, 18, 18));
   color: aliceblue;
+  font-size: 1.6rem;
 }
