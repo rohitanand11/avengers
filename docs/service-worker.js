@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/avengers_corousal/precache-manifest.9169e91a4710c687fcb74ef34b255dc8.js"
+  "/avengers_corousal/precache-manifest.c365efa94b05adfc4c30bb496825f579.js"
 );
 
 self.addEventListener('message', (event) => {

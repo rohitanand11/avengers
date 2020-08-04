@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "854fac2893e47682153fd8cc1e855f77",
+    "revision": "b49bd39298932f6f4ed2bdface4f99eb",
     "url": "/avengers_corousal/index.html"
   },
   {
-    "revision": "cd76ff03289be992812d",
-    "url": "/avengers_corousal/static/css/main.a1056e32.chunk.css"
+    "revision": "e56cc551cd7c3a4c602e",
+    "url": "/avengers_corousal/static/css/main.f691b936.chunk.css"
   },
   {
-    "revision": "8ccb3d041a24eb1cd491",
-    "url": "/avengers_corousal/static/js/2.97188659.chunk.js"
+    "revision": "42096fe349fb4549b2e0",
+    "url": "/avengers_corousal/static/js/2.d3fb5b30.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/avengers_corousal/static/js/2.97188659.chunk.js.LICENSE.txt"
+    "url": "/avengers_corousal/static/js/2.d3fb5b30.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cd76ff03289be992812d",
-    "url": "/avengers_corousal/static/js/main.377028dc.chunk.js"
+    "revision": "e56cc551cd7c3a4c602e",
+    "url": "/avengers_corousal/static/js/main.ca7e7afb.chunk.js"
   },
   {
     "revision": "138e17de085bcf380513",
