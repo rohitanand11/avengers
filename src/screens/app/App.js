@@ -4,10 +4,12 @@ import Corousal from "../../components/corousal/Corousal";
 import Counter from "../../components/counter/Counter";
 import Dialogues from "../../components/dialogues/Dialogues";
 import Movies from "../../components/movies/Movies";
+import statsContainer from "../../components/statsContainer/";
 
 // import DataArr from "../../data/dataArray/dataArray";
 import * as utility  from "../../data/utility/utility";
 import Classes from "./App.module.css";
+import StatsContainer from "../../components/statsContainer/StatsContainer";
 
 const InitialIndex = 0;
 
@@ -72,6 +74,7 @@ const App = () => {
 
       <Movies movies_list={utility.movie_list()}/>
 
+      <StatsContainer statistics={utility.stats()}/>
     </div>
   );
 };
