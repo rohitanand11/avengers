@@ -1,0 +1,29 @@
+.main_container{
+
+    width:92%;
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        // justify-content: space-between;
+        align-items: center;
+        font-size: 1.1rem;
+
+        .label{
+            width: 33%;
+            text-align: left;
+        }
+
+        .bar{
+            width: 55%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .score{
+            width: 12%;
+            text-align: right;
+        }
+    }
+}
