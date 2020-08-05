@@ -11,4 +11,9 @@ const movie_list  = () => {
     return movies;
 }
 
-export {corousalImage,movie_list};
+const stats  = () => {
+    const stats = {...Data.stats};
+    return stats;
+}
+
+export {corousalImage,movie_list,stats};

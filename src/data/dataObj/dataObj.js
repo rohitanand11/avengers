@@ -9,6 +9,8 @@ import Hulk from '../../assets/images/hulk.jpg';
 import Thor from '../../assets/images/thor.jpg';
 import IronMan from '../../assets/images/iron_man.jpg';
 
+import IronMan_pf from '../../assets/images/profile_images/iron_man.jpg';
+
 const Data = {
 
     corousal: [
@@ -211,7 +213,67 @@ const Data = {
             },
         ]
 
-    }
+    },
+    
+    //stats
+    stats:{
+        data:[
+            {
+                character_name : "Iron Man",
+                profile_img : IronMan_pf,
+                statistics : {
+                    Strength : 8,
+                    cleverness : 9,
+                    speed: 8,
+                    flexiblity:6,
+                    money : 10,
+                    popularity : 8,
+                    against_Thanos : 10,
+                }
+            },
+            {
+                character_name : "captain america",
+                profile_img : "",
+                statistics : {
+                    Strength : 8,
+                    cleverness : 7,
+                    speed: 8,
+                    flexiblity:6,
+                    money : 8,
+                    popularity : 10,
+                    against_Thanos : 9,
+                }
+            },
+            {
+                character_name : "Hulk",
+                profile_img : "",
+                statistics : {
+                    Strength : 10,
+                    cleverness : 1,
+                    speed: 8,
+                    flexiblity:6,
+                    money : 6,
+                    popularity : 7,
+                    against_Thanos : 7,
+                }
+            },
+            {
+                character_name : "Black Panther",
+                profile_img : "",
+                statistics : {
+                    Strength : 7,
+                    cleverness : 1,
+                    speed: 8,
+                    flexiblity:6,
+                    money : 6,
+                    popularity : 7,
+                    against_Thanos : 7,
+                }
+            }
+            
+
+        ]
+    },
 
 };
 
