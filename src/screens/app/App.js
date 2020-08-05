@@ -4,7 +4,6 @@ import Corousal from "../../components/corousal/Corousal";
 import Counter from "../../components/counter/Counter";
 import Dialogues from "../../components/dialogues/Dialogues";
 import Movies from "../../components/movies/Movies";
-import statsContainer from "../../components/statsContainer/";
 
 // import DataArr from "../../data/dataArray/dataArray";
 import * as utility  from "../../data/utility/utility";
