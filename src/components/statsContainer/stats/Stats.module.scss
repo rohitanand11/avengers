@@ -1,0 +1,20 @@
+.Stats{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .profile-picture{
+        height: 40%;
+        width: 90%;
+        // background-position: top;
+    }
+
+    .statsBar{
+        height: 50%;
+        width: 100%;
+    }
+
+    
+}
