@@ -1,3 +1,9 @@
 .StatsContainer{
-    width:100vw;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 700px){
+    .StatsContainer{
+        padding-top: 25vh;
+    }
 }

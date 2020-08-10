@@ -1,15 +1,18 @@
-import SpiderMan from '../../assets/images/spider_man.jpg';
-import BlackPanther from '../../assets/images/black_panther.jpg';
-import AntMan from '../../assets/images/ant_man.jpg';
-import Captain from '../../assets/images/captain.jpg';
-import DoctorStrange from '../../assets/images/doctor_strange.jpg';
-import BlackWidow from '../../assets/images/black_widow.jpg';
-import CaptainMarvel from '../../assets/images/captain_marvel.jpg';
-import Hulk from '../../assets/images/hulk.jpg';
-import Thor from '../../assets/images/thor.jpg';
-import IronMan from '../../assets/images/iron_man.jpg';
+import SpiderMan from '../../assets/images/corousel_images/spider_man.jpg';
+import BlackPanther from '../../assets/images/corousel_images/black_panther.jpg';
+import AntMan from '../../assets/images/corousel_images/ant_man.jpg';
+import Captain from '../../assets/images/corousel_images/captain.jpg';
+import DoctorStrange from '../../assets/images/corousel_images/doctor_strange.jpg';
+import BlackWidow from '../../assets/images/corousel_images/black_widow.jpg';
+import CaptainMarvel from '../../assets/images/corousel_images/captain_marvel.jpg';
+import Hulk from '../../assets/images/corousel_images/hulk.jpg';
+import Thor from '../../assets/images/corousel_images/thor.jpg';
+import IronMan from '../../assets/images/corousel_images/iron_man.jpg';
 
 import IronMan_pf from '../../assets/images/profile_images/iron_man.jpg';
+import Captain_pf from '../../assets/images/profile_images/captain_america.jpg';
+import hulk_pf from '../../assets/images/profile_images/hulk.jpg';
+import BlackPanther_pf from '../../assets/images/profile_images/black_panther.jpg';
 
 const Data = {
 
@@ -228,12 +231,13 @@ const Data = {
                     flexiblity:6,
                     money : 10,
                     popularity : 8,
-                    against_Thanos : 10,
+                    Vs_Thanos : 10,
                 }
             },
             {
-                character_name : "captain america",
-                profile_img : "",
+                character_name : "Captain America",
+                
+                profile_img : Captain_pf,
                 statistics : {
                     Strength : 8,
                     cleverness : 7,
@@ -241,12 +245,12 @@ const Data = {
                     flexiblity:6,
                     money : 8,
                     popularity : 10,
-                    against_Thanos : 9,
+                    Vs_Thanos : 9,
                 }
             },
             {
                 character_name : "Hulk",
-                profile_img : "",
+                profile_img : hulk_pf,
                 statistics : {
                     Strength : 10,
                     cleverness : 1,
@@ -254,12 +258,12 @@ const Data = {
                     flexiblity:6,
                     money : 6,
                     popularity : 7,
-                    against_Thanos : 7,
+                    Vs_Thanos : 7,
                 }
             },
             {
                 character_name : "Black Panther",
-                profile_img : "",
+                profile_img : BlackPanther_pf,
                 statistics : {
                     Strength : 7,
                     cleverness : 1,
@@ -267,7 +271,7 @@ const Data = {
                     flexiblity:6,
                     money : 6,
                     popularity : 7,
-                    against_Thanos : 7,
+                    Vs_Thanos : 7,
                 }
             }
             
