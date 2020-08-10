@@ -13,6 +13,9 @@ import IronMan_pf from '../../assets/images/profile_images/iron_man.jpg';
 import Captain_pf from '../../assets/images/profile_images/captain_america.jpg';
 import hulk_pf from '../../assets/images/profile_images/hulk.jpg';
 import BlackPanther_pf from '../../assets/images/profile_images/black_panther.jpg';
+import Thor_pf from '../../assets/images/profile_images/thor.jpg';
+import CaptainMarvel_pf from '../../assets/images/profile_images/captain_marvel.png';
+import SpiderMan_pf from '../../assets/images/profile_images/spider_man.jpg';
 
 const Data = {
 
@@ -273,7 +276,47 @@ const Data = {
                     popularity : 7,
                     Vs_Thanos : 7,
                 }
-            }
+            },
+            {
+                character_name : "Black Panther",
+                profile_img : Thor_pf,
+                statistics : {
+                    Strength : 7,
+                    cleverness : 1,
+                    speed: 8,
+                    flexiblity:6,
+                    money : 6,
+                    popularity : 7,
+                    Vs_Thanos : 7,
+                }
+            },
+            
+            {
+                character_name : "Black Panther",
+                profile_img : CaptainMarvel_pf,
+                statistics : {
+                    Strength : 7,
+                    cleverness : 1,
+                    speed: 8,
+                    flexiblity:6,
+                    money : 6,
+                    popularity : 7,
+                    Vs_Thanos : 7,
+                }
+            },
+            {
+                character_name : "Black Panther",
+                profile_img : SpiderMan_pf,
+                statistics : {
+                    Strength : 7,
+                    cleverness : 1,
+                    speed: 8,
+                    flexiblity:6,
+                    money : 6,
+                    popularity : 7,
+                    Vs_Thanos : 7,
+                }
+            },
             
 
         ]

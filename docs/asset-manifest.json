@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/avengers/static/css/main.a53127fe.chunk.css",
-    "main.js": "/avengers/static/js/main.d073a015.chunk.js",
-    "main.js.map": "/avengers/static/js/main.d073a015.chunk.js.map",
+    "main.js": "/avengers/static/js/main.0c1def22.chunk.js",
+    "main.js.map": "/avengers/static/js/main.0c1def22.chunk.js.map",
     "runtime-main.js": "/avengers/static/js/runtime-main.3ce193ee.js",
     "runtime-main.js.map": "/avengers/static/js/runtime-main.3ce193ee.js.map",
-    "static/js/2.d172393e.chunk.js": "/avengers/static/js/2.d172393e.chunk.js",
-    "static/js/2.d172393e.chunk.js.map": "/avengers/static/js/2.d172393e.chunk.js.map",
+    "static/js/2.29896ad3.chunk.js": "/avengers/static/js/2.29896ad3.chunk.js",
+    "static/js/2.29896ad3.chunk.js.map": "/avengers/static/js/2.29896ad3.chunk.js.map",
     "index.html": "/avengers/index.html",
-    "precache-manifest.d0c05963a78baac947eb260fcfd5b9a1.js": "/avengers/precache-manifest.d0c05963a78baac947eb260fcfd5b9a1.js",
+    "precache-manifest.63cccd8231825472e7bd01aec5064136.js": "/avengers/precache-manifest.63cccd8231825472e7bd01aec5064136.js",
     "service-worker.js": "/avengers/service-worker.js",
     "static/css/main.a53127fe.chunk.css.map": "/avengers/static/css/main.a53127fe.chunk.css.map",
-    "static/js/2.d172393e.chunk.js.LICENSE.txt": "/avengers/static/js/2.d172393e.chunk.js.LICENSE.txt",
+    "static/js/2.29896ad3.chunk.js.LICENSE.txt": "/avengers/static/js/2.29896ad3.chunk.js.LICENSE.txt",
     "static/media/ant_man.jpg": "/avengers/static/media/ant_man.a241ac8a.jpg",
     "static/media/black_panther.jpg": "/avengers/static/media/black_panther.657f9991.jpg",
     "static/media/black_widow.jpg": "/avengers/static/media/black_widow.4b9ed018.jpg",
     "static/media/captain.jpg": "/avengers/static/media/captain.de13c0b2.jpg",
     "static/media/captain_america.jpg": "/avengers/static/media/captain_america.a3b0bd0a.jpg",
     "static/media/captain_marvel.jpg": "/avengers/static/media/captain_marvel.2e80fe82.jpg",
+    "static/media/captain_marvel.png": "/avengers/static/media/captain_marvel.cbbac7da.png",
     "static/media/doctor_strange.jpg": "/avengers/static/media/doctor_strange.d80f5cc5.jpg",
     "static/media/hulk.jpg": "/avengers/static/media/hulk.e718ca28.jpg",
     "static/media/iron_man.jpg": "/avengers/static/media/iron_man.2965378a.jpg",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3ce193ee.js",
-    "static/js/2.d172393e.chunk.js",
+    "static/js/2.29896ad3.chunk.js",
     "static/css/main.a53127fe.chunk.css",
-    "static/js/main.d073a015.chunk.js"
+    "static/js/main.0c1def22.chunk.js"
   ]
 }

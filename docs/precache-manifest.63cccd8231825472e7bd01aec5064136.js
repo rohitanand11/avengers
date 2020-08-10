@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e439bed7af957002a3e798c3bb2bbe9",
+    "revision": "b599b59b70275ca09a1bcad13cce6b73",
     "url": "/avengers/index.html"
   },
   {
-    "revision": "6958f6e11381bba4c8be",
+    "revision": "e992a27678e2ac1003ab",
     "url": "/avengers/static/css/main.a53127fe.chunk.css"
   },
   {
-    "revision": "c218cdd150ba1cea14b4",
-    "url": "/avengers/static/js/2.d172393e.chunk.js"
+    "revision": "a408acb042ace1bfe83b",
+    "url": "/avengers/static/js/2.29896ad3.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/avengers/static/js/2.d172393e.chunk.js.LICENSE.txt"
+    "url": "/avengers/static/js/2.29896ad3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6958f6e11381bba4c8be",
-    "url": "/avengers/static/js/main.d073a015.chunk.js"
+    "revision": "e992a27678e2ac1003ab",
+    "url": "/avengers/static/js/main.0c1def22.chunk.js"
   },
   {
     "revision": "b626df08463147242907",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/avengers/static/media/captain_marvel.2e80fe82.jpg"
   },
   {
+    "revision": "cbbac7da476b4afe94b9ebeae33fcf94",
+    "url": "/avengers/static/media/captain_marvel.cbbac7da.png"
+  },
+  {
     "revision": "d80f5cc5c1c282b14a220f84d21b4ac6",
     "url": "/avengers/static/media/doctor_strange.d80f5cc5.jpg"
   },
@@ -72,8 +76,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/avengers/static/media/iron_man.2965378a.jpg"
   },
   {
+    "revision": "6d4479555819c68add8a3c5fa4d2d6e5",
+    "url": "/avengers/static/media/spider_man.6d447955.jpg"
+  },
+  {
     "revision": "fd5ecf53d5e702bd056a508bd923fe4e",
     "url": "/avengers/static/media/spider_man.fd5ecf53.jpg"
+  },
+  {
+    "revision": "553c14c0e11e2288efd9882f1f3ce1b3",
+    "url": "/avengers/static/media/thor.553c14c0.jpg"
   },
   {
     "revision": "e80719de69ab9f65a5393a54e2d8ab48",
