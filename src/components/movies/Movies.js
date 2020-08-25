@@ -6,7 +6,7 @@ const Movies = ({ movies_list }) => {
     return (
       <React.Fragment>
         <tr>
-          <th>S.No</th>
+          <th>S.N</th>
           {movies_list.coloumn_names.map((elem) => {
             return <th key={elem}>{elem}</th>;
           })}

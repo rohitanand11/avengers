@@ -95,7 +95,7 @@ const Data = {
 
     movie_list: {
         component_title:"Movies in chronological order till endgame",
-        coloumn_names: ["movies", "year", "Character"],
+        coloumn_names: ["movies", "year", "Hero"],
         movies: [
             {
                 movie_name: "Captain America: The First Avenger",
