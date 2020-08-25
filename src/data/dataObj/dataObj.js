@@ -278,7 +278,7 @@ const Data = {
                 }
             },
             {
-                character_name : "Black Panther",
+                character_name : "Thor",
                 profile_img : Thor_pf,
                 statistics : {
                     Strength : 7,
@@ -292,7 +292,7 @@ const Data = {
             },
             
             {
-                character_name : "Black Panther",
+                character_name : "Captain Marvel",
                 profile_img : CaptainMarvel_pf,
                 statistics : {
                     Strength : 7,
@@ -305,7 +305,7 @@ const Data = {
                 }
             },
             {
-                character_name : "Black Panther",
+                character_name : "Spider Man",
                 profile_img : SpiderMan_pf,
                 statistics : {
                     Strength : 7,
