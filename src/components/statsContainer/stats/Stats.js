@@ -12,6 +12,7 @@ const Stats = ({ character }) => {
       <div className={Classes.Image}>
         <img
           src={character.profile_img}
+          loading="lazy"
           alt={character.character_name}
           className={Classes.profile_picture}
         />
